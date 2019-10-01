@@ -1,0 +1,156 @@
+body{
+background: #eee;
+}
+.wrap{
+	padding: 20px;
+	background: #bcf;
+	max-width: 960px;
+	margin: 0 auto;
+	z-index:0;
+	position: relative
+}
+.wrap:after{
+	content:"";
+	display:block;
+	clear: both;
+}
+img{
+float: right;
+margin: 10px;
+height: 180px;
+  
+
+}
+.blue{
+	background: blue;
+	float: right;
+}
+.red
+{
+background: red;
+float: right;
+}
+.green
+{
+background: green;
+float: left;
+}
+.box{
+height: 100px;
+width: 100px;
+}
+.service h2, .service p{
+color: #999;
+margin: 10px 0;
+text-align: center;
+
+}
+.service{
+	float: left;
+	background: #ddd;
+	width: 29%;
+	margin: 1%;
+	padding: 1%;
+	height: 140px;
+	position: relative;
+}
+.content
+{
+	padding: 10px;
+	background: #ccc;
+	clear: left;
+	margin-top: 50px;
+}
+.services:after{
+content: "";
+display: block;
+clear: both;
+    
+
+}
+
+
+.content{
+padding: 10px;
+clear: both;
+margin: 20px;
+}
+.service:child(1)
+{
+top:5px;
+}
+.service:child(2)
+{
+top:20px;
+}
+.service:child(3)
+{
+top:30px;
+}
+
+.content{
+padding: 10px;
+clear: left;
+margin: 20px;
+}
+.content p{
+	-webkit-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 50px;
+	column-gap: 50px;
+	-webkit-column-rule: 1px solid #ccc;
+	column-rule:1px solid #ccc;
+	text-align: justify;
+}
+section, aside{
+float: left;
+width: 46%;
+padding: 1%;
+margin: 1%;
+background: #ddd;
+}
+.colum:after{
+	display: block;
+	background: #ccf;
+	content: "";	
+	clear: both;
+
+}
+#banner {
+max-height: 300px;
+overflow: absolute;
+margin: 2%;
+position: relative;
+
+}
+#banner h2{
+
+position: absolute;
+top: 30px;
+margin: 0;
+width: 100%;
+text-align: center;
+color: #fff;
+}
+nav{
+background: #333;
+ 
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+z-index:1;
+
+}
+nav li{
+list-style-type: none;
+margin: 0 10px;
+color: #fff;
+float: right;
+}
+nav ul:after{
+	content: "";
+	display: block;
+	clear: both;
+
+}
